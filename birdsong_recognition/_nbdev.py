@@ -2,9 +2,20 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {"favorite_bird": "00_core.ipynb"}
+index = {"load_mp3": "dataset.ipynb",
+         "get_sample_label": "dataset.ipynb",
+         "preprocess_file": "dataset.ipynb",
+         "pad_by_zeros": "dataset.ipynb",
+         "split_file_by_window_size": "dataset.ipynb",
+         "wrapper_split_file_by_window_size": "dataset.ipynb",
+         "create_dataset_fixed_size": "dataset.ipynb",
+         "get_spectrogram": "dataset.ipynb",
+         "add_channel_dim": "dataset.ipynb",
+         "download_recordings_by_bird": "download_recordings.ipynb",
+         "unzip_files": "download_recordings.ipynb"}
 
-modules = ["core.py"]
+modules = ["dataset.py",
+           "download_recordings.py"]
 
 doc_url = "https://YingyingF.github.io/birdsong_recognition/"
 
